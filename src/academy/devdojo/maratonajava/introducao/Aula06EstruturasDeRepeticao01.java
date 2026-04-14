@@ -1,0 +1,24 @@
+package academy.devdojo.maratonajava.introducao;
+
+public class Aula06EstruturasDeRepeticao01 {
+    public static void main(String[] args) {
+        // while, do while, for
+        int count = 0;
+        while (count < 10) {
+            // count = count + 1
+            count += 1;
+            System.out.println(count);
+            // ooutro exemplo 1 ate 10
+            //System.out.println(++count);
+        }
+        count = 0;
+        do {
+            System.out.println("Dentro do do-while, vou executar pelo menos uma vez mesmo que a condição seja falsa!!"+ ++count);
+
+        } while (count < 10);
+
+        for(int i=0;i<10;i++){
+            System.out.println("For " + i);
+        }
+    }
+}
